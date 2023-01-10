@@ -1,0 +1,12 @@
+.boxpadding{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+.boxpadding2{
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    padding-bottom: 10px;
+}
