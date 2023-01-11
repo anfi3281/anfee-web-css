@@ -1,0 +1,37 @@
+.tulisan1{
+    text-align: left;
+}
+.tulisan2{
+    text-align: center;
+}
+.tulisan3{
+    text-align: right;
+}
+.tulisan4{
+    text-align: justify;
+}
+.tulisan5{
+    color: blue;
+    text-decoration: underline;
+}
+.tulisan6{
+    text-align: right;
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+.tulisan7{
+    text-align: center;
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+.tulisan8{
+    padding: 10px;
+    text-transform: uppercase;
+    line-height: 10px;
+    letter-spacing: 10px;
+}
+.tulisan9:hover{
+    background:red;
+    color: white;
+    text-align: center;
+}
