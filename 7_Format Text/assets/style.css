@@ -1,0 +1,33 @@
+.tulisan_kiri{
+    text-align: left;
+}
+.tulisan_tengah{
+    text-align: center;
+}
+.tulisan_kanan{
+    text-align: right;
+}
+.tulisan_justify{
+    text-align: justify;
+}
+.tulisan_satu{
+    color: blue;
+    text-decoration: underline;
+}
+.tulisan_dua{
+    text-align: right;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    padding: 10px;
+}
+.tulisan_tiga{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+.tulisan_empat{
+    text-transform: uppercase;
+    text-indent: 30px;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
