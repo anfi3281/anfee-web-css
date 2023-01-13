@@ -1,0 +1,24 @@
+.kotak1{
+    background: red;
+    padding : 10px;
+    position: fixed;
+    border-style: dashed;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kotak2{
+    background-color: blue;
+    padding: 20px;
+    position: absolute;
+    border-style: dotted;
+    border-style: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    height: 1000px;
+    width: 500px;
+}

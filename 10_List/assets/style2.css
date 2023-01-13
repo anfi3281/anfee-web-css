@@ -1,0 +1,21 @@
+.makanan1{
+    list-style-type: square;
+}
+.makanan2{
+    list-style-type: circle;
+}
+.makanan3{
+    list-style-type: upper-alpha;
+}
+.makanan4{
+    list-style-type: decimal;
+}
+
+body{
+    background-color: red;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
