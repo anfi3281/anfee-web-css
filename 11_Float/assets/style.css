@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+.gambar{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+.gambar2{
+    width: 300px;
+    float: right;
+    margin-left: 10px;
+}
+
+body{
+    background-color: yellow;
+}
