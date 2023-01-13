@@ -1,0 +1,42 @@
+body{
+    background-color: yellow;
+    color: white;
+
+    font-family: roboto;
+}
+
+.container{
+    padding: 30px;   
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 50px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.submit{
+    width: max-content;
+    margin: auto;
+}
+.logo{
+    width: max-content;
+    position: relative;
+    margin: auto;
+    margin-bottom: -60px;
+}
+img{
+    width: 80px;
+    margin: auto;
+    border-radius: 100%;
+}
+.supercontainer{
+    margin-top: 75px;
+}
+.container2{
+    padding-top: 20px;
+}
