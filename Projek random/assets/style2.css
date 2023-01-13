@@ -1,0 +1,23 @@
+body{
+    background-color: yellow;
+    font-family: roboto;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+.kotak{
+    margin-top: 50px;
+}
+
+.dalam2{
+    width: max-content;
+    margin: 0px auto;
+}
+
+#ketengah{
+    width: max-content;
+    margin: 0px auto;
+}
