@@ -1,0 +1,46 @@
+body{
+    background-color: yellow;
+    text-align: center;
+}
+
+.container{
+    display: block;
+    overflow: auto;
+}
+
+.tengah{
+    width: max-content;
+    margin: auto;
+}
+.kotak{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+}
+
+.kotak1{
+    background: linear-gradient(red, green);
+    background: -moz-linear-gradient(blue, orange);
+    background: -o-linear-gradient(black, white);
+    background: -webkit-linear-gradient(purple, pink, red, blue);
+}
+.kotak2{
+    background: linear-gradient(to right, red, yellow, green);
+    background: -moz-linear-gradient(left, red, yellow, green);
+    background: -o-linear-gradient(right, red, yellow, green);
+    background: -webkit-linear-gradient(right, red, yellow, green);
+}
+.kotak3{
+    background: radial-gradient(red, green);
+    background: -moz-radial-gradient(blue, orange);
+    background: -o-radial-gradient(black, white);
+    background: -webkit-radial-gradient(purple, pink, red, blue);
+}
+.kotak4{
+    background: radial-gradient(circle, red, yellow, green);
+    background: -moz-radial-gradient(circle, red, blue, orange);
+    background: -o-radial-gradient(circle, red, black, white);
+    background: -webkit-radial-gradient(circle, purple, pink, red,);
+}
