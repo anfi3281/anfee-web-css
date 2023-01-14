@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+    color: white;
+    font-family: roboto;
+    text-align: center;
+}
+
+.container{
+}
+
+.tengah{
+    width: max-content;
+    margin: auto;
+}
+
+.kotak{
+    background: greenyellow;
+    width:100px;
+    height: 100px;
+    margin: 20px;
+    float: left;
+}
+
+.kotak1{
+    box-shadow: 10px 10px 20px 10px black;
+}
+
+.kotak2{
+    box-shadow: 0px 0px 20px 10px white;
+}
