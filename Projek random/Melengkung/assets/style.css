@@ -8,27 +8,56 @@ h1{
     color: white;
 }
 
-
-
 .supercontainer{
-    
+    height: 480px;
 }
-.semicontainer{
+
+.ketengah{
+    width: max-content;
+    margin: auto;
+}
+.ketengah2{
     width: max-content;
     margin: auto;
 }
 
-.ketengah{
-    width: 1000px;
-    height: max-content;
-    position: absolute;
-}
-
 .kotak{
     background-color: white;
-    padding: 20px;
     width: 200px;
     float: left;
     margin: 20px;
     height: 200px;
+}
+
+.kotakin{
+    background-color: white;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+}
+
+.kotak1{
+    border-radius: 10px;
+}
+.kotak2{
+    border-radius: 100%;
+}
+.kotak3{
+    border-radius: 10px 20px 30px 50px;
+}
+.kotak4{
+    border-radius: 10px;
+}
+.kotak5{
+    border-radius: 10px;
+}
+.kotak6{
+    border-radius: 10px;
+}
+.kotak7{
+    border-radius: 10px;
+}
+.kotak8{
+    border-radius: 10px;
 }
