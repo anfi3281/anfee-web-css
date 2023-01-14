@@ -9,16 +9,25 @@ h1{
 }
 
 .supercontainer{
-    height: 480px;
+    display: block;
+    overflow: auto;
+}
+.supercontainer2{
+    display: block;
+    overflow: auto;
 }
 
 .ketengah{
     width: max-content;
     margin: auto;
+    display: block;
+    overflow: auto;
 }
 .ketengah2{
     width: max-content;
     margin: auto;
+    display: block;
+    overflow: auto;
 }
 
 .kotak{
