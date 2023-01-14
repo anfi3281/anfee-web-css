@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    font-family: roboto;
+    background-color: yellow;
+    color: white;
+}
+
+h1{
+    background-color: black;
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 50px;
+}
+
+.container{
+}
+
+
+.mid{
+    width: max-content;
+    margin: auto;
+    
+}
+
+.kotak{
+    background-color: grey;
+    width: 150px;
+    height: 150px;
+    margin: 70px;
+    float: left;
+    border-radius: 20px;
+}
+
+.kotak11{
+    transform: translate(-50px,-20px);
+}
+
+.kotak21{
+    transform: translate(5px, 5px);
+}
+
+.kotak31{
+    transform: translate(10px, 10px);
+}
+
+.kotak12{
+    transform: scale(2,2);
+}
+
+.kotak22{
+    transform: scale(0.5, 2);
+}
+
+.kotak32{
+    transform: scale(1,0.5);
+}
+
+.kotak13{
+    transform: skew(20deg);
+}
+
+.kotak23{
+    transform: skew(-20deg);
+}
+
+.kotak33{
+    transform: skew(100deg);
+}
+
+.kotak43{
+    transform: skew(1000deg);
+}
+
+.kotak14{
+    transform: rotate(10deg);
+}
+
+.kotak24{
+    transform: rotate(200deg);
+}
+
+.kotak34{
+    transform: rotate(180deg);
+}
+
+.kotak44{
+    transform: rotate(200deg);
+}
+
+.kotak15{
+    transform: matrix(1,2,-1,1,5,4);
+}
+.kotak25{
+    transform: matrix(2,3,1,3,4,3);
+}
+.kotak35{
+    transform: matrix(-2,1,2,2,2,3);
+}
+.kotak45{
+    transform: matrix(3,2,2,3,2,3);
+}
