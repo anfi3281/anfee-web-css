@@ -1,0 +1,38 @@
+body{
+    background-color: yellow;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.tengah{
+    width: 900px;
+    margin: auto;
+}
+.kotak{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 100px;
+    border-radius: 25%;
+}
+
+.kotak1{
+    transform: scale(2,2);
+}
+.kotak2{
+    transform: skew(200deg ,200deg);
+}
+.kotak3{
+    transform: rotate(100deg, 60px);
+}
+.kotak4{
+    transform: matrix(2,1,2,3,3,2);
+}
+.kotak5{
+    transform: scale(2,2);
+}
