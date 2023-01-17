@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    font-family: roboto;
+}
+
+.tengah{
+    width: max-content;
+    margin: auto;
+}
+
+.kotak1{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px 5px white;
+    transition: width  1s ;
+}
+.kotak1:hover{
+    width: 200px;
+}
+.kotak2{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;   
+    box-shadow: 10px 10px 20px 5px black;
+    transition: height 1s, width 2s;
+}
+.kotak2:hover{
+    height: 200px;
+    width: 200px;
+}
