@@ -1,0 +1,43 @@
+body{
+    background-color: red;
+    color: white;
+    font-family: roboto;
+    text-align: center;
+}
+
+.kotak{
+    background: black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 10pt;
+    transition: width 2s;
+}
+
+.kotak:hover{
+    width: 500px;
+}
+
+.kotak1{
+    transition-timing-function: linear;
+}
+
+.kotak2{
+    transition-timing-function: ease;
+}
+
+.kotak3{
+    transition-timing-function: ease-in;
+}
+
+.kotak4{
+    transition-timing-function: ease-out;
+}
+
+.kotak5{
+    transition-timing-function: ease-in-out;
+}
+
+.kotak5{
+    transition-timing-function: cubic-bezier(2,4,5,6);
+}
