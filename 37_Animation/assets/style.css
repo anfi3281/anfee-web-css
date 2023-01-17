@@ -1,0 +1,74 @@
+body{
+    background-color: aliceblue;
+    color: blue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.kotak{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 10px black;
+    animation-name: animasi_kotak;
+    animation-duration: 2s;
+    transition: width 1s;
+    margin: 20px;
+    float: left;
+}
+
+.tengah{
+    width: max-content;
+    margin: auto;
+}
+@keyframes animasi_kotak {
+    from{background-color: aquamarine;width:200px;}    
+    to{background-color: red;width : 300px;}
+}
+
+.kotak2{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 10px black;
+    animation-name: animasi_kotak2;
+    animation-duration: 5s;    
+    margin: 20px;
+    float: left;
+    position: relative;
+}
+
+@keyframes animasi_kotak2 {
+    0% {background-color: black; left:0px; top:0px;}
+    25% {background-color: white; left:200px; top:0px;}
+    50% {background-color: black; left:0; top:200px;}
+    75% {background-color: white; left:200px; top:200px;}
+    100% {background-color: black; left:0px; top:0px;}
+}
+@-webkit-keyframes animasi_kotak2 {
+    0% {background-color: black; left:0px; top:0px;}
+    25% {background-color: white; left:200px; top:0px;}
+    50% {background-color: black; left:0; top:200px;}
+    75% {background-color: white; left:200px; top:200px;}
+    100% {background-color: black; left:0px; top:0px;}
+}
+@-moz-keyframes animasi_kotak2 {
+    0% {background-color: black; left:0px; top:0px;}
+    25% {background-color: white; left:200px; top:0px;}
+    50% {background-color: black; left:0; top:200px;}
+    75% {background-color: white; left:200px; top:200px;}
+    100% {background-color: black; left:0px; top:0px;}
+}
+@-o-keyframes animasi_kotak2 {
+    0% {background-color: black; left:0px; top:0px;}
+    25% {background-color: white; left:200px; top:0px;}
+    50% {background-color: black; left:0; top:200px;}
+    75% {background-color: white; left:200px; top:200px;}
+    100% {background-color: black; left:0px; top:0px;}
+}
