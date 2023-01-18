@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Data Mahasiswa</title>
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <link rel="shortcut icon" href="logo.jpg" />
+  </head>
+  <body>
+    <div class="judul">
+      <h1>Input Data Mahasiswa</h1>
+    </div>
+    <div class="container">
+      <div class="tengah">
+        <div class="subcontainer1">
+          <form>
+            Nama : <input type="text" /><br />
+            NIM : <input type="text" /><br />
+            Jenis Kelamin :
+            <input type="checkbox" name="jk" value="laki-laki" />laki-laki
+            <input type="checkbox" name="jk" value="perempuan" />Perempuan<br />
+            Alamat :
+            <input list="alamat" placeholder="Masukkan Alamat" />
+            <datalist>
+              <option value="Pekalongan">Pekalongan</option>
+              <option value="Batang">Batang</option>
+              <option value="Pemalang">Pemalang</option></datalist
+            ><br />
+            Hobi :
+            <select>
+              <option>Komputer</option>
+              <option>Memancing</option>
+              <option>Sepak Bola</option></select
+            ><br />
+            <input type="submit" value="Kirim" />
+          </form>
+        </div>
+        <div class="subcontainer2">
+          <table border="1">
+            <tr>
+              <th>Nama</th>
+              <th>NIM</th>
+              <th>Jenis Kelamin</th>
+              <th>Alamat</th>
+              <th>Hobi</th>
+            </tr>
+            <tr>
+              <td>Budi</td>
+              <td>123456</td>
+              <td>Laki-laki</td>
+              <td>Pekalongan</td>
+              <td>Memancing</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

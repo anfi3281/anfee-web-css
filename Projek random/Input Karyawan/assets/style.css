@@ -1,0 +1,56 @@
+body{
+    background-color: yellow;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;    
+    background-color: black;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 5px 15px 5px white;
+    animation-name: judul;
+    animation-duration: 2s;
+    position: relative;
+    transition: width 2s;
+}
+
+h1:hover{
+    width: 500px;
+}
+
+@keyframes judul {
+    0% {background-color: black; color: white;top: 0px;box-shadow: 5px 5px 15px 5px white;}    
+    25% {background-color: white; color: black; top:10px;box-shadow: 5px 5px 15px 5px black;}    
+    50% {background-color: black; color: white;top:5px;box-shadow: 5px 5px 15px 5px white;}    
+    75% {background-color: white; color: black;top:10px;box-shadow: 5px 5px 15px 5px black;}    
+    100% {background-color: black; color: white;top:0px;box-shadow: 5px 5px 15px 5px white;}    
+}
+
+.subcontainer1 *{
+    margin-bottom: 30px;
+}
+.subcontainer2{
+    margin-left: 50px;
+}
+
+.tengah{
+    display: flex;
+    background-color: black;
+    float: left;
+    margin: auto;
+    padding: 50px;
+    border-radius: 25px;
+    color:white;
+    box-shadow: 5px 5px 15px 5px white;
+}
+
+.container{
+    margin: auto;
+    width: max-content;
+}

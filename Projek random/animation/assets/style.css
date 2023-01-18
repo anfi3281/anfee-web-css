@@ -1,0 +1,39 @@
+body{
+    background-color: yellow;
+    color: red;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kotak{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border-radius: 20px;
+    transition: width 1s;
+    animation-name: animasi;
+    animation-duration: 2s;
+    position: relative;
+}
+
+.tengah{
+    width: max-content;
+    margin: auto;
+}
+.kotak:hover{
+    width: 100px;
+}
+
+@keyframes animasi {
+    0% {background-color: black;top:0px;}
+    25% {background-color: white;top:100px;}
+    50% {background-color: black;top:200px;}
+    75% {background-color: white;top:100px;}
+    100% {background-color: black;top:0px;}
+}
